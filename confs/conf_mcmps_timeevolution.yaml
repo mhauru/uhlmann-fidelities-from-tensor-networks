@@ -1,0 +1,27 @@
+model: qising
+h_trans: 1.0
+h_long: 0.0
+
+symmetry_tensors: False
+verbosity: 10
+
+mps_chis: !!python/object/apply:builtins.range [1, 51, 1]
+mps_eps: !!float 1e-8
+euclideon_eps: !!float 1e-8
+euclideon_chis: !!python/object/apply:builtins.range [1, 7, 1]
+initial_timestep: 50
+timestep_decreasant: 0.8
+min_timestep: 0.1
+entropy_eps: !!float 1e-3
+energy_eps: !!float 1e-3
+spectrum_eps: !!float 1e-6
+max_counter: 5000
+ax_subcounter: 30
+
+lorentzion_timestep: 0.2
+lorentzion_eps: !!float 1e-8
+insertion_early: z
+insertion_late: z
+max_t: 20
+max_x: 25
+
