@@ -1,13 +1,14 @@
-In this folder you can Python 3/NumPy implementations of the tensor network
-methods described in the paper "Uhlmann fidelities from tensor networks". This
-code can be used to reproduce the benchmark results for the Ising model, shown
-in the paper. It should not be considered a reference implementation, as it is
-simply a semi-cleaned snap shot of the author's personal codebase. It includes
-unused, possibly broken bits, does certain things in unnecessarily complicated
-and over general ways, and is conversely ad hoc at other times. The main
-purpose of the code is to function as the ultimate reference for how the
-results in the paper were produced, and at the same time as a proof that the
-algorithms described in the paper really do produce the plots shown.
+In this folder you can find Python 3/NumPy implementations of the tensor
+network methods described in the paper "Uhlmann fidelities from tensor
+networks". This code can be used to reproduce the benchmark results for the
+Ising model, shown in the paper. It should not be considered a reference
+implementation, as it is simply a semi-cleaned snap shot of the author's
+personal codebase. It includes unused, possibly broken bits, does certain
+things in unnecessarily complicated and over general ways, and is conversely
+ad hoc at other times. The main purpose of the code is to function as the
+ultimate reference for how the results in the paper were produced, and at
+the same time as a proof that the algorithms described in the paper really
+do produce the plots shown.
 
 The main content is in the files MPS/UMPS.py and MPS/McMPS.py. UMPS.py
 implements a class for uniform, infinite Matrix Product States. McMPS
